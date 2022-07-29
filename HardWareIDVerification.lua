@@ -6,5 +6,3 @@ for i,v in pairs(HWIDTable1) do
         print("Hardware ID Passed, you can load script now...")
     end
 end
-        end
-    end
