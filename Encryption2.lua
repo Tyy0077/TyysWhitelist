@@ -12,6 +12,5 @@
                 getgenv().Key)
             getgenv().Encrypted1 = enc1
             loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tyy0077/TyysWhitelist/main/Decryption.lua"), true))()
-        else game.Players.LocalPlayer:Kick("Incorrect Key,") wait(2) while true do print('1') end
         end
     end
