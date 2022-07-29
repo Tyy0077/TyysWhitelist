@@ -5,7 +5,7 @@ local HWIDTable = syn.crypt.decrypt(
 
 local HWIDTable1 = loadstring(game:HttpGet((HWIDTable), true))()
 local HWIDVerif = game:GetService("RbxAnalyticsService"):GetClientId()
-setclipboard(HWID)
+setclipboard(HWIDVerif)
 for i,v in pairs(HWIDTable1) do
     if v == HWIDVerif then
         print("Hardware ID Passed, you can load script now...")
