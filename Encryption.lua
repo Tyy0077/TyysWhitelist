@@ -4,7 +4,7 @@
 if getgenv().Key == '$nLliCMdi7gcynsFCK9u0aVNdtkNIiZA' then
     
     local enc = syn.crypt.encrypt(
-        "https://raw.githubusercontent.com/Tyy0077/TyysWhitelist/main/Script.lua", 
+        "game:HttpGet(("https://raw.githubusercontent.com/Tyy0077/TyysWhitelist/main/Encryption.lua", true))()", 
         getgenv().Key)
     setclipboard(enc)
     getgenv().Encrypted = enc
