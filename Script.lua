@@ -3,7 +3,7 @@ local HWIDTable = syn.crypt.decrypt(
     getgenv().Encrypted1,
     getgenv().Key)
 
-local HWIDTable1 = loadstring(game:HttpGet(HWIDTable))()
+local HWIDTable1 = loadstring(game:HttpGet((HWIDTable), true))()
 local HWIDVerif = game:GetService("RbxAnalyticsService"):GetClientId()
 setclipboard(HWID)
 for i,v in pairs(HWIDTable1) do
