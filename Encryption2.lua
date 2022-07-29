@@ -1,4 +1,7 @@
-for i,v in pairs(verif2) do
+
+    local verif2 = loadstring(game:HttpGet((verif), true))()
+    local KeyC = getgenv().Key
+    for i,v in pairs(verif2) do
         if v == KeyC then
             local enc = syn.crypt.encrypt(
                 "https://zws.im/󠁬󠁴󠁮󠁹󠁶‍󠁶", 
@@ -8,7 +11,7 @@ for i,v in pairs(verif2) do
                 "https://zws.im/󠁧󠁿󠁮‌󠁩󠁦󠁱",
                 getgenv().Key)
             getgenv().Encrypted1 = enc1
-            loadstring(game:HttpGet(('https://zws.im/󠁣󠁷󠁶󠁥󠁹‍󠁸'), true))()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tyy0077/TyysWhitelist/main/Decryption.lua"), true))()
+        else game.Players.LocalPlayer:Kick("Incorrect Key,") wait(2) while true do print('1') end
         end
     end
-    
