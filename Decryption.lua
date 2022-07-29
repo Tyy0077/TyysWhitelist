@@ -1,5 +1,6 @@
-local scriptmain = syn.crypt.decrypt(
+local a = syn.crypt.decrypt(
     getgenv().Encrypted,
     getgenv().Key)
 
-scriptmain
+
+loadstring(a), true))()
