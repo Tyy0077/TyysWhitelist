@@ -1,4 +1,5 @@
-
-print(syn.crypt.decrypt(
+local scriptmain = syn.crypt.decrypt(
     getgenv().Encrypted,
-    getgenv().Key))
+    getgenv().Key)
+
+scriptmain
