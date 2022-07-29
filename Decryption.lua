@@ -1,4 +1,4 @@
 
-loadstring((syn.crypt.decrypt(
+print(syn.crypt.decrypt(
     getgenv().Encrypted,
-    getgenv().Key)))
+    getgenv().Key))
