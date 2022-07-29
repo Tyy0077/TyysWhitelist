@@ -1,6 +1,4 @@
-local a = syn.crypt.decrypt(
+
+print(syn.crypt.decrypt(
     getgenv().Encrypted,
-    getgenv().Key)
-
-
-loadstring(a), true))()
+    getgenv().Key))
