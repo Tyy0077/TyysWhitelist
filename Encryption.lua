@@ -4,7 +4,7 @@
 if getgenv().Key == '$nLliCMdi7gcynsFCK9u0aVNdtkNIiZA' then
     
     local enc = syn.crypt.encrypt(
-        "https://zws.im/󠁳󠁿󠁣󠁹󠁿󠁢󠁰", 
+        "https://zws.im/󠁡󠁷󠁲󠁹󠁭‌󠁱", 
         getgenv().Key)
     getgenv().Encrypted = enc
     local enc1 = syn.crypt.encrypt(
