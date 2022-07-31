@@ -2,7 +2,7 @@ getgenv().KeyTrue = false if getgenv().KeyTrue then print('no script editing fag
 local Key = getgenv().Key
 for i,v in pairs(getgenv().keys) do 
     local a = syn.crypt.base64.decode(v)
-    if a == Key then print('correct key')return end
+    if a == Key then getgenv().KeyTrue = true if a == Key and getgenv().KeyTrue then print('correct key')return end end
 end
 print('wrong key')
 return
